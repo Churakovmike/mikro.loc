@@ -23,6 +23,9 @@ class Tariffs extends \yii\db\ActiveRecord
         return 'tariffs';
     }
 
+    public function getUser() {
+        return $this->hasMany(User::className(), ['tariffs_id' => 'id']);
+    }
     /**
      * @inheritdoc
      */

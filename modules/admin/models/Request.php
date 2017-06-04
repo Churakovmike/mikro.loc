@@ -34,6 +34,7 @@ class Request extends \yii\db\ActiveRecord
     public function getName() {
         return $this->tariffs->name;
     }
+
     /**
      * @inheritdoc
      */

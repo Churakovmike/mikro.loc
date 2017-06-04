@@ -225,6 +225,21 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                         ],
                                     ],
                                     [
+                                        "label" => "Журнал операций",
+                                        "url" => "#",
+                                        "icon" => "steam",
+                                        "items" => [
+                                            [
+                                                "label" => "Просмотреть",
+                                                "url" => "/admin/pays/index",
+                                            ],
+                                            [
+                                                "label" => "Добавить",
+                                                "url" => "/admin/pays/create",
+                                            ],
+                                        ],
+                                    ],
+                                    [
                                         "label" => "Новости",
                                         "url" => "#",
                                         "icon" => "newspaper-o",
@@ -268,7 +283,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                     [
                                         "label" => "Журнал событий",
                                         "url" => "#",
-                                        "icon" => "tasks",
+                                        "icon" => "building-o",
                                         "items" => [
                                             [
                                                 "label" => "Просмотреть",
@@ -470,8 +485,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com" rel="nofollow" target="_blank">Colorlib</a><br />
-                Extension for Yii framework 2 by <a href="http://yiister.ru" rel="nofollow" target="_blank">Yiister</a>
+                Елизавета Чуракова
             </div>
             <div class="clearfix"></div>
         </footer>
