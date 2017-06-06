@@ -2,206 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f9b1d4-d847-49e6-80c5-86035b016e4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/a1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/a3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/banner_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/business.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/dest.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/f1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/f2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/f3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/f4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mg4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mg6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mg7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/move-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/operator/operator.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/operator/zajavka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/p1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/p2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/p33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/pic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/s1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/s2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/single.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/tech.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/tech1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/tech3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/ti1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/time.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/time2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/AD_ProsConSocial-054093-edited2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/Taskflow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/ext.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/iStock-524897688 (2).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/iStock-612491256.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/iStock-612491256.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Новая папка/iStock_96327189_XLARGE-copy-e1493216435233.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News1/9dd845752c-1_200x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News1/9dd845752c-1_300x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News2/9a38161684-1_300x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News3/dcd0d5210b-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News3/dcd0d5210b-1_300x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News4/f9579a4cc7-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News4/f9579a4cc7-1_100x100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News4/f9579a4cc7-1_150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News4/f9579a4cc7-1_300x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News4/f9579a4cc7-1_50x50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News5/0bb525a18b-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News5/0bb525a18b-1_100x100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News5/0bb525a18b-1_150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News5/0bb525a18b-1_300x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/News/News5/0bb525a18b-1_50x50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/cache/placeHolder/placeHolder_300x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/404.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/blured.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/core_values_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/counter_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/fav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/logo-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/logo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/pin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/1920x600.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/208x98.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/300x170.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/360x204.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/360x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/425x200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/placeholders/848x480.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/signature.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/widget-title-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/no-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/store/News/News1/14b497.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/store/News/News2/a0159e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/store/News/News3/d62df7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/store/News/News3/ea382d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/store/News/News4/8410ea.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/store/News/News5/33d04a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/controllers/PaysController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/pays/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/pays/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/pays/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/pays/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/pays/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/cabinet/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/main1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/request/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/allnews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/mikro.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/signup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index-test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.flexisel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/move-top.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/responsiveslides.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/notify.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/uploads/images/pt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/costa-rico/yii2-images" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/BlacklistController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/BlacklistController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/ChangedevicesController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/ChangedevicesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/ConnectionController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/ConnectionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/DefaultController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/DevicesController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/DevicesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/MikrotiksController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/MikrotiksController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/NewsController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/NewsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/RequestController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/RequestController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/RequesttarifController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/RequesttarifController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/StationsController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/StationsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/TariffsController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/TariffsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/UserController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/models/Actionlist.php" afterPath="$PROJECT_DIR$/modules/admin/models/Actionlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/models/Pays.php" afterPath="$PROJECT_DIR$/modules/admin/models/Pays.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/models/User.php" afterPath="$PROJECT_DIR$/modules/admin/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/models/UsersSearch.php" afterPath="$PROJECT_DIR$/modules/admin/models/UsersSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/actionlist/index.php" afterPath="$PROJECT_DIR$/modules/admin/views/actionlist/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/actionlist/view.php" afterPath="$PROJECT_DIR$/modules/admin/views/actionlist/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/default/index.php" afterPath="$PROJECT_DIR$/modules/admin/views/default/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/tasks/index.php" afterPath="$PROJECT_DIR$/modules/admin/views/tasks/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/user/_search.php" afterPath="$PROJECT_DIR$/modules/admin/views/user/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/user/index.php" afterPath="$PROJECT_DIR$/modules/admin/views/user/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/user/view.php" afterPath="$PROJECT_DIR$/modules/admin/views/user/view.php" />
     </list>
     <ignored path="mikro.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -269,8 +71,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/admin/views/actionlist/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -292,6 +94,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -431,7 +236,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,103 +250,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actionlist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mikro.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="costa-rico" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -638,7 +351,7 @@
       <workItem from="1496557312048" duration="15359000" />
       <workItem from="1496588083919" duration="6598000" />
       <workItem from="1496663829472" duration="2314000" />
-      <workItem from="1496740451383" duration="10591000" />
+      <workItem from="1496740451383" duration="11412000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1496593067195</created>
@@ -647,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496593067195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1496758383839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496758383839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234854000" />
+    <option name="totallyTimeSpent" value="235675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1120,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/admin/views/actionlist/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
