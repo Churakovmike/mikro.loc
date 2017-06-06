@@ -13,6 +13,7 @@ use app\models\Pays;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use Yii;
+use app\modules\admin\models\User;
 
 
 class PaysController extends Controller
@@ -89,6 +90,10 @@ class PaysController extends Controller
         $pay->sum = $amount;
         $pay->type = 'Зачисление';
         $pay->save();
+
+        $users = User::find()->where(['username' => $label])->one();
+        $users->balance += $amount;
+        $users->save();
 //        echo 'lol';
         exit();
     }

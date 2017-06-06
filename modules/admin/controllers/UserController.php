@@ -303,4 +303,36 @@ class UserController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
+    public function actionDisable() {
+        $models = User::find()->where('<', 'balance', '0')->andWhere(['activity' => '1'])->all();
+        foreach ($models as $model) {
+            $model->activity = 0;
+            $model->save();
+            User::mikrotikDisable($model);
+        }
+    }
+
+    public function actionEnable() {
+        $models = User::find()->where('>=', 'balance', '0')->all();
+        foreach ($models as $model) {
+            if ($model->activity == '0') {
+                $model->activity = 1;
+                $model->save();
+                User::mikrotikEnable($model);
+            }
+        }
+    }
+
+    public function actionSpisanie() {
+        $users = User::find()->with('tariffs')->where(['activity' => '1'])->all();
+        foreach ($users as $user) {
+            $user->balance += $user->tariffs->cost;
+            $user->save();
+        }
+//        $users->balance -= $users->tariffs->cost;
+//        $users->save();
+//        die();
+        return $this->render('spisanie');
+    }
 }

@@ -2,511 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f9b1d4-d847-49e6-80c5-86035b016e4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Spam/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Spam/tests/_output/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/SpamPack/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/tests/_data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/tests/_log/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/tests/_data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/tests/_log/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/tests/_data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/no_actor_suites/tests/_support/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/standard/tests/_data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/standard/tests/_log/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/standard/tests/_support/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/FailFast.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/GracefulTermination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Subscriber/Shared/StaticEvents.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Suite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/SuiteManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Acceptance.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Template/Unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Cept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Cest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Descriptor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Feature/AssertionCounter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Feature/CodeCoverage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Feature/ErrorLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Feature/IgnoreIfMetadataBlocked.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Feature/MetadataCollector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Feature/ScenarioLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Gherkin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Interfaces/Dependent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Interfaces/Descriptive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Interfaces/Plain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Interfaces/Reported.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Interfaces/ScenarioDriven.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Interfaces/StrictCoverage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Loader/Cept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Loader/Cest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Loader/Gherkin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Loader/LoaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Loader/Unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Metadata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Test/Unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/TestInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/ActionSequence.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Annotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/ArrayContainsComparator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/ConsecutiveMap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/FileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Fixtures.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/HttpCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/JsonArray.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/JsonType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Locator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Maybe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/PathResolver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/PropertyAccess.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/ReflectionHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Shared/Asserts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Shared/Namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Soap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Stub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/StubMarshaler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Uri.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/Xml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/XmlBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/XmlStructure.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Util/sq.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/angular.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/angular/AngularCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/AutoRebuildCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/BootstrapCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/BuildCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/ConfigBundledSuitesCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/ConfigNoActorCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/ConfigParamsCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/ConfigValidateCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/DryRunCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/ExceptionInBeforeDoesNotMakeFatalErrorCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/ExtensionsCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateCeptCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateCestCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateFeatureCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateGroupCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateHelperCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GeneratePageObjectCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateScenariosCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateStepObjectCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateSuiteCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GenerateTestCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GherkinCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GlobalCommandOptionCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GroupEventsCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/GroupExtensionCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/IncludedCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/MixedIncludeCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/OrderCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RegisterCommandCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunEnvironmentCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunIncompleteCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunSkippedCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/SecondTestIsExecutedWhenTheFirstTestFailsCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/UnitCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/WildcardIncludeCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/_steps/GeneratorSteps.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/LocalCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteServerWithCrap4jCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteServerWithHtmlCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteServerWithXmlCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteWithCrap4jCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteWithEnvironmentXmlCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteWithHtmlCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteWithTextCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/RemoteWithXmlCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/coverage/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/DummyClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/DummyOverloadableClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/FailDependenciesCyclic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/FailDependenciesInChain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/FailDependenciesNonExistent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/FailDependenciesPrimitiveParam.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/Invalid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleAdminGroupCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleNamespacedTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDependencyInjectionCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithNoClassCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/glue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/hhvm-server.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/basehref.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/content_type.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/content_type2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/cookies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/external_url.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/facebook.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/anchor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug1467.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug1535.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug1585.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug1598.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug1637.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug2841.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug2921.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug3824.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug3865.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug3866.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/bug3953.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button-not-in-form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button_in_link.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox_array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/click.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/complex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/div_content_editable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/empty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/empty_fill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example10.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example11.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example12.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example13.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example14.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example15.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example16.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example17.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example18.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example9.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/field.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/field_values.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/form_with_buttons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/hidden.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/multiple_matches.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/names-sq-brackets.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/popup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/radio.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/relative_siteroot.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select_multiple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select_second.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select_selectors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select_two_submits.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/strict_selectors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/submit_adjacentforms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/submitform_ampersands.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/submitform_multiple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/textarea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/unchecked.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/iframe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/info.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/jserroronload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/minimal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/redirect2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/redirect_interval.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/redirect_meta_refresh.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/redirect_params.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/bundled_suites/BasicTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/bundled_suites/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/bundled_suites/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/c3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_custom_report.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_extended.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_grouped.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_invalid.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_strict_xml.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/src/FooBar/dummy.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/DummyClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/MyGroupHighlighter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/MyReportPrinter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/VerbosityLevelOutput.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/dump.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/groupFileTest1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_envs/env2.dist.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_envs/env2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_envs/subenv/env3.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/AbsolutelyOtherGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/CodeGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/CodeHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/DumbGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/DumbHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/ExtendedGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Group/CountEvents.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Helper/Extended.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Helper/Scenario.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Math/Adder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Math/CalcHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Math/Subtractor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/MathTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/MessageGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/MessageHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/OrderGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/OrderHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/OtherGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/OtherHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Page/Math/Trigonometry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/PowerGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/PowerHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/ScenarioGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/SkipGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/SkipGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/SkipHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/Step/Order/CanCantSteps.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/SuiteExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/AnotherCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/AnotherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/FileExistsCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/GroupEventsCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/extended.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/extended/HelloCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/extended/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/math.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/math/MathCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/math/MathTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/math/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/messages.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/messages/EmailCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/messages/MessageCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/messages/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/AnotherCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/BeforeAfterClassTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/BeforeAfterClassWithDataProviderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/CanCantFailCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/CanCantFailCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/CodeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/Dependent2Cest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/DependentCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/FailedCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/FailedCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/LoadingOrderCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/ParsedLoadedTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/ReorderCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/order/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/powers.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/powers/MageGuildCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/powers/PowerIsRisingCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/powers/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote/DemoCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote_server.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote_server/DemoCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/remote_server/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/ConditionalCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/DataProviderCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/DependencyForCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/ExamplesCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/Fail.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/FailedCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/File.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/FileExamples.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/InlineArgumentExample.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/PyStringArgumentExample.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/SubStepsCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/SuccessCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/Utf8Example.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/scenario/subfolder/SubFile.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/skipped.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/skipped/IncompleteMeCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/skipped/NoEnvironmentCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/skipped/SkipByGroupTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/skipped/SkipMeCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/skipped/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/DataProvidersTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/Depends2Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/DependsTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/ErrorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/ExceptionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/FailingTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/PassingTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dump.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/mongo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres-hhvm.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite-54.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/_support/Helper/Unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/_support/_generated/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/unit/failing.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/unit/failingCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/unit/failingCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/exception_in_before/tests/unit/failingTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/_output/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/_support/CustomReporter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/_support/_generated/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/first_test_fails/tests/unit/twoTestsCest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/group_1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/group_2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/group_3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/src/BillEvans.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/_data/dump.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/_helpers/TestGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/_helpers/TestHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/functional.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/functional/PianistCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/functional/TestGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/pianist/tests/functional/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/src/Musician.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/_data/dump.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/_helpers/TestGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/_helpers/TestHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/_helpers/_generated/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/functional.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/functional/DemoCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/functional/TestGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/jazz/tests/functional/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/src/Hobbit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/_data/dump.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/_helpers/TestGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/_helpers/TestHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/_helpers/_generated/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/functional.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/functional/HobbitCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/functional/TestGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included/shire/tests/functional/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/src/foo/AcmePack/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/src/foo/AcmePack/src/Acme.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/src/foo/AcmePack/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/src/foo/AcmePack/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/src/foo/AcmePack/tests/unit/BasicTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/src/foo/AcmePack/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/support/NoTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_mix/tests/unit/SimpleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Spam/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Spam/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Spam/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Spam/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/src/Ewok.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/tests/unit/BasicTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/Sub/EwokPack/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/src/Toast.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/bar/ToastPack/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/src/Acme.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/tests/_support/UnitTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/tests/unit/BasicTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/included_w/src/foo/AcmePack/tests/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/no_actor_suites/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/no_actor_suites/tests/BasicTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/codeception_dotenv.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/codeception_dotenv2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/codeception_self.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/codeception_yaml.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/params.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/params.env.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/params.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/tests/_support/DummyTester.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/tests/_support/Helper/Dummy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/tests/_support/_generated/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/tests/dummy.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/params/tests/dummy/DummyCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/php55Test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/php70Test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/refund.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/examples/MyCustomCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/examples/YourCustomCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/standard/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/register_command/standard/tests/_autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/hhvm-server.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/test_groups" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/unsetFile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/whitespace_group_test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/xml/layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/facebook.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/facebook/FacebookTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/log/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/AngularGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/CliGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/CliHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/CodeGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/CodeHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/CoverGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/CoverHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/EmulateModuleHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/FacebookGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/Helper/Angular.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/Helper/Shire.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/Shire/Codeception/Module/EmulateModuleHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/TestHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/UniversalFramework.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/WebGuy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/support/WebHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/C3Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/ApplicationTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/BaseCommandRunner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/unit/Codeception/Command/BuildTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/user/spisanie.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PaysController.php" afterPath="$PROJECT_DIR$/controllers/PaysController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/PaysController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/PaysController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/controllers/UserController.php" afterPath="$PROJECT_DIR$/modules/admin/controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/models/User.php" afterPath="$PROJECT_DIR$/modules/admin/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/user/index.php" afterPath="$PROJECT_DIR$/modules/admin/views/user/index.php" />
     </list>
     <ignored path="mikro.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -526,56 +28,44 @@
     <favorites_list name="mikro.loc" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/controllers/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
-              <folding>
-                <element signature="e#49#86#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/admin/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlacklistController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/controllers/BlacklistController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="121" column="57" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
+            <state relative-caret-position="416">
+              <caret line="316" column="59" selection-start-line="316" selection-start-column="59" selection-end-line="316" selection-end-column="59" />
               <folding>
-                <element signature="e#49#57#0#PHP" expanded="true" />
+                <element signature="e#49#89#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actionlist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/models/Actionlist.php">
+      <file leaf-file-name="spisanie.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/admin/views/user/spisanie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+            <state relative-caret-position="0">
+              <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/admin/views/actionlist/index.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/admin/views/user/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="237">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/admin/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="248" column="19" selection-start-line="248" selection-start-column="19" selection-end-line="248" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -604,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/admin/views/tasks/create.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/tasks/view.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/tasks/_form.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/tasks/update.php" />
@@ -621,7 +110,6 @@
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/controllers/CabinetController.php" />
         <option value="$PROJECT_DIR$/models/Pays.php" />
-        <option value="$PROJECT_DIR$/controllers/PaysController.php" />
         <option value="$PROJECT_DIR$/views/cabinet/index.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/pays/index.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/pays/_form.php" />
@@ -634,8 +122,6 @@
         <option value="$PROJECT_DIR$/modules/admin/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/user/_search.php" />
         <option value="$PROJECT_DIR$/modules/admin/models/UsersSearch.php" />
-        <option value="$PROJECT_DIR$/modules/admin/models/User.php" />
-        <option value="$PROJECT_DIR$/modules/admin/views/user/index.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/user/view.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/tasks/index.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/default/index.php" />
@@ -645,16 +131,20 @@
         <option value="$PROJECT_DIR$/modules/admin/controllers/DevicesController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/MikrotiksController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/NewsController.php" />
-        <option value="$PROJECT_DIR$/modules/admin/controllers/PaysController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/RequestController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/RequesttarifController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/StationsController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/TariffsController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/DefaultController.php" />
-        <option value="$PROJECT_DIR$/modules/admin/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/BlacklistController.php" />
         <option value="$PROJECT_DIR$/modules/admin/models/Actionlist.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/actionlist/index.php" />
+        <option value="$PROJECT_DIR$/modules/admin/controllers/PaysController.php" />
+        <option value="$PROJECT_DIR$/controllers/PaysController.php" />
+        <option value="$PROJECT_DIR$/modules/admin/models/User.php" />
+        <option value="$PROJECT_DIR$/modules/admin/views/user/index.php" />
+        <option value="$PROJECT_DIR$/modules/admin/views/user/spisanie.php" />
+        <option value="$PROJECT_DIR$/modules/admin/controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -697,6 +187,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -725,6 +216,72 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -739,7 +296,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -753,17 +318,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="costa-rico" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mikro.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -854,7 +436,8 @@
       <workItem from="1496557312048" duration="15359000" />
       <workItem from="1496588083919" duration="6598000" />
       <workItem from="1496663829472" duration="2314000" />
-      <workItem from="1496740451383" duration="11700000" />
+      <workItem from="1496740451383" duration="12295000" />
+      <workItem from="1496770312382" duration="5270000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1496593067195</created>
@@ -874,10 +457,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235963000" />
+    <option name="totallyTimeSpent" value="241828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -914,20 +497,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/requesttarif/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -954,13 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PaysController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1063,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,22 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/views/user/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="230" column="15" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/admin/models/UsersSearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -1168,16 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,16 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
           <caret line="162" column="24" selection-start-line="162" selection-start-column="24" selection-end-line="162" selection-end-column="24" />
-          <folding>
-            <element signature="e#49#57#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/PaysController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="e#49#57#0#PHP" expanded="false" />
           </folding>
@@ -1299,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/admin/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="442">
           <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
           <folding>
             <element signature="e#49#86#0#PHP" expanded="true" />
@@ -1307,17 +831,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/admin/controllers/BlacklistController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
+        <state relative-caret-position="1955">
           <caret line="121" column="57" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
           <folding>
             <element signature="e#49#57#0#PHP" expanded="true" />
@@ -1327,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/admin/models/Actionlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="510">
           <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
           <folding />
         </state>
@@ -1344,8 +860,70 @@
     <entry file="file://$PROJECT_DIR$/modules/admin/views/actionlist/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/PaysController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding>
+            <element signature="e#49#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/PaysController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="93" column="68" selection-start-line="93" selection-start-column="68" selection-end-line="93" selection-end-column="68" />
+          <folding>
+            <element signature="e#118#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="248" column="19" selection-start-line="248" selection-start-column="19" selection-end-line="248" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/tasks/spisanie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/views/user/spisanie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="316" column="59" selection-start-line="316" selection-start-column="59" selection-end-line="316" selection-end-column="59" />
+          <folding>
+            <element signature="e#49#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
