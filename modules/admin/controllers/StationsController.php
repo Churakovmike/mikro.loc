@@ -9,7 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\widgets\Pjax;
-
+use app\modules\admin\models\Actionlist;
 /**
  * StationsController implements the CRUD actions for Stations model.
  */
@@ -68,6 +68,13 @@ class StationsController extends Controller
         $model = new Stations();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
@@ -87,6 +94,13 @@ class StationsController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -103,8 +117,16 @@ class StationsController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
 
+        $this->findModel($id)->delete();
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
         return $this->redirect(['index']);
     }
 

@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
+use app\modules\admin\models\Actionlist;
 
 /**
  * NewsController implements the CRUD actions for News model.
@@ -75,6 +76,14 @@ class NewsController extends Controller
             unset($model->image);
             Yii::$app->session->setFlash('success', 'Новость обновлена');
 
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
+
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
@@ -109,6 +118,14 @@ class NewsController extends Controller
             unset($model->image);
             Yii::$app->session->setFlash('success', 'Новость обновлена');
 
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
+
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -133,7 +150,17 @@ class NewsController extends Controller
      */
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
+
         $this->findModel($id)->delete();
+
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         return $this->redirect(['index']);
     }

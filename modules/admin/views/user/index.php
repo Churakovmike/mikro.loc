@@ -34,7 +34,14 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             //'id',
-            'surname',
+//            'surname',
+            [
+                'attribute' => 'surname',
+                'value' => function($data) {
+                    return "<a href='/admin/user/view?id=" . $data->id . "'>" . $data->surname . "</a>";
+                },
+                'format' => 'html',
+            ],
             'firstname',
             'secondname',
             [

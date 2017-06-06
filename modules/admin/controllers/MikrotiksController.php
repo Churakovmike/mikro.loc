@@ -10,6 +10,7 @@ use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\modules\admin\models\Actionlist;
 /**
  * MikrotiksController implements the CRUD actions for Mikrotiks model.
  */
@@ -71,6 +72,13 @@ class MikrotiksController extends Controller
 //        print_r($stations);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
@@ -90,6 +98,13 @@ class MikrotiksController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -106,7 +121,16 @@ class MikrotiksController extends Controller
      */
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
+
         $this->findModel($id)->delete();
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         return $this->redirect(['index']);
     }

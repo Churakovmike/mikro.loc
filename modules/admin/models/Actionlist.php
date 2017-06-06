@@ -12,6 +12,7 @@ use Yii;
  * @property string $action
  * @property string $parameters
  * @property string $route
+ * @property  string $date
  */
 class Actionlist extends \yii\db\ActiveRecord
 {
@@ -26,12 +27,17 @@ class Actionlist extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+    public function getUser() {
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
+    }
+
     public function rules()
     {
         return [
             [['user_id', 'action', 'parameters', 'route'], 'required'],
             [['user_id'], 'integer'],
-            [['action', 'parameters', 'route'], 'string', 'max' => 500],
+            [['action',  'route'], 'string', 'max' => 500],
+            [['date', 'parameters'], 'safe'],
         ];
     }
 
@@ -46,6 +52,7 @@ class Actionlist extends \yii\db\ActiveRecord
             'action' => 'Действие',
             'parameters' => 'Параметры',
             'route' => 'путь',
+            'date' => 'Дата',
         ];
     }
 }

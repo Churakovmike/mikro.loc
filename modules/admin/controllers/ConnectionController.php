@@ -2,6 +2,7 @@
 
 namespace app\modules\admin\controllers;
 
+use app\modules\admin\models\Actionlist;
 use Yii;
 use app\modules\admin\models\Connection;
 use yii\data\ActiveDataProvider;
@@ -65,14 +66,22 @@ class ConnectionController extends Controller
     public function actionCreate()
     {
         $model = new Connection();
-
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
             ]);
         }
+        # id пользователя Yii::$app->user->identity->id;
+        # ткущий путь(экшн) $this->route;
     }
 
     /**
@@ -86,6 +95,13 @@ class ConnectionController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -102,7 +118,15 @@ class ConnectionController extends Controller
      */
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
         $this->findModel($id)->delete();
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         return $this->redirect(['index']);
     }

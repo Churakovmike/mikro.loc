@@ -3,6 +3,7 @@
 namespace app\modules\admin\controllers;
 
 use app\modules\admin\models\Devices;
+use app\modules\admin\models\Pays;
 use app\modules\admin\models\Request;
 use app\modules\admin\models\Requesttarif;
 use app\modules\admin\models\User;
@@ -26,11 +27,9 @@ class DefaultController extends Controller
         $requestCount = Request::find()->where(['status' => '1'])->count(); # количество новых заявок
         $requestChangeCount = Requesttarif::find()->where(['status' => '0'])->count(); # количество невыполненных заявок по смене тарифного плана
         $userAbonents = User::find()->with('tariffs')->where(['role' => 'abonent'])->orderBy(['id' => SORT_DESC])->limit(10)->all(); # последние 10 добавленных абонентов
-        $requestLists = Request::find()->where(['status' => '1'])->orderBy(['id' => SORT_DESC])->limit(10)->all();
-//        echo \Yii::$app->controller->action->id;
-        //echo $this->route;
-        //die();
-        //debug($userAbonents);
-        return $this->render('index', compact('countUsers', 'countDevicesFree', 'countDevices', 'requestCount', 'requestChangeCount', 'userAbonents', 'requestLists'));
+        $requestLists = Request::find()->where(['status' => '1'])->orderBy(['id' => SORT_DESC])->limit(10)->all(); # список последних заявокна подключение
+        $payLists = Pays::find()->orderBy(['id' => SORT_DESC])->limit(10)->all(); # последние платежи
+        $requestChangeLists = Requesttarif::find()->orderBy(['id' => SORT_DESC])->limit(10)->all();
+        return $this->render('index', compact('countUsers', 'countDevicesFree', 'countDevices', 'requestCount', 'requestChangeCount', 'userAbonents', 'requestLists', 'payLists', 'requestChangeLists'));
     }
 }

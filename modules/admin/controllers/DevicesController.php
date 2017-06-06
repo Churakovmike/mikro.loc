@@ -8,6 +8,7 @@ use app\modules\admin\models\DevicesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\modules\admin\models\Actionlist;
 
 /**
  * DevicesController implements the CRUD actions for Devices model.
@@ -66,6 +67,13 @@ class DevicesController extends Controller
         $model = new Devices();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
@@ -85,6 +93,13 @@ class DevicesController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -101,7 +116,15 @@ class DevicesController extends Controller
      */
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
         $this->findModel($id)->delete();
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         return $this->redirect(['index']);
     }

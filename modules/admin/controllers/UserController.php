@@ -14,7 +14,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\ActiveDataProvider;
 use PEAR2\Net\RouterOS;
-
+use app\modules\admin\models\Actionlist;
 /**
  * UserController implements the CRUD actions for User model.
  */
@@ -70,6 +70,13 @@ class UserController extends Controller
             $model->password_hash = $security->generatePasswordHash($model->password_hash);
             $model->auth_key = $security->generateRandomString();
             $model->save();
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление сотрудника';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['viewemploye', 'id' => $model->id]);
         } else {
             return $this->render('createemploye', [
@@ -90,6 +97,13 @@ class UserController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление сотрудника';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['viewemploye', 'id' => $model->id]);
         } else {
             return $this->render('updateemploye', [
@@ -100,8 +114,16 @@ class UserController extends Controller
 
     public function actionDeleteemploye($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
 
+        $this->findModel($id)->delete();
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление сотрудника';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
         return $this->redirect(['employee']);
     }
     /**
@@ -138,7 +160,13 @@ class UserController extends Controller
             $devices->save();
             $model->save();
             User::mikrotikAdd($model, $tempPassword);
-
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             /*-----------------------------------------------------------------------------*/
 //            $service = Connection::findOne($model->connection_id);
 //            $profile = Tariffs::findOne($model->tariffs_id);
@@ -222,6 +250,13 @@ class UserController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             User::mikrotikUpdate($model);
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -238,9 +273,17 @@ class UserController extends Controller
      */
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
+
         User::mikrotikDelete($id);
         $this->findModel($id)->delete();
-
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         return $this->redirect(['index']);
     }

@@ -24,7 +24,13 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
             ],
         ]) ?>
+<!--        --><?php //if(!$model->activity)  : ?>
+<!--            --><?//= Html::a('Активировать', ['activate', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+<!--        --><?php //else : ?>
+<!--            --><?//= Html::a('Дективировать', ['deactivate', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+<!--        --><?php //endif; ?>
     </p>
+<!--        --><?php //debug($model); ?>
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [

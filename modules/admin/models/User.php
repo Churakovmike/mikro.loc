@@ -10,6 +10,7 @@ use PEAR2\Net\RouterOS;
  * This is the model class for table "user".
  *
  * @property integer $id
+ * @property string $surname
  * @property string $username
  * @property string $auth_key
  * @property string $password_hash

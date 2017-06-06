@@ -11,6 +11,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use PEAR2\Net\RouterOS;
+use app\modules\admin\models\Actionlist;
 
 /**
  * RequesttarifController implements the CRUD actions for Requesttarif model.
@@ -69,6 +70,13 @@ class RequesttarifController extends Controller
         $model = new Requesttarif();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Добавление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
@@ -88,6 +96,13 @@ class RequesttarifController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $action = new Actionlist();
+            $action->user_id = Yii::$app->user->identity->id;
+            $action->action = 'Обновление';
+            $action->parameters = $model->id ;
+            $action->route = $this->route;
+            $action->date = date('Y-m-d H-i-s');
+            $action->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -104,7 +119,16 @@ class RequesttarifController extends Controller
      */
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
+
         $this->findModel($id)->delete();
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Удаление';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         return $this->redirect(['index']);
     }
@@ -128,6 +152,14 @@ class RequesttarifController extends Controller
 
         $model->status = 1;
         $model->save();
+
+        $action = new Actionlist();
+        $action->user_id = Yii::$app->user->identity->id;
+        $action->action = 'Смена тарифа';
+        $action->parameters = $model->id ;
+        $action->route = $this->route;
+        $action->date = date('Y-m-d H-i-s');
+        $action->save();
 
         Yii::$app->session->setFlash('response', 'Клиент успешно переведен на новый тарифных план');
         return Yii::$app->response->redirect(['/admin/requesttarif/index']);

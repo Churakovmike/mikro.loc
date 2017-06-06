@@ -23,6 +23,9 @@ class Pays extends \yii\db\ActiveRecord
         return 'pays';
     }
 
+    public function getUser() {
+        return $this->hasOne(User::className(), ['username' => 'username']);
+    }
     /**
      * @inheritdoc
      */
