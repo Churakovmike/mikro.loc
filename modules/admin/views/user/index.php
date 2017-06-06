@@ -44,6 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             'firstname',
             'secondname',
+            'balance',
             [
                 'label' => 'Тариф',
                 'value' => function($data) {

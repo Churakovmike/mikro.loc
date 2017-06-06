@@ -19,6 +19,7 @@ use PEAR2\Net\RouterOS;
  * @property integer $status
  * @property integer $created_at
  * @property integer $updated_at
+ * @property string $balance
  */
 class User extends \yii\db\ActiveRecord
 {
@@ -230,5 +231,21 @@ class User extends \yii\db\ActiveRecord
         );
         $util->setMenu('/ppp/secret');
         !$model->activity ? $util->disable(RouterOS\Query::where('name', $model->username)) : $util->enable(RouterOS\Query::where('name', $model->username)) ;
+    }
+
+    public function mikrotikDisable($model) {
+        $util = new RouterOS\Util(
+            $client = new RouterOS\Client('192.168.1.100', 'admin', 'admin')
+        );
+        $util->setMenu('/ppp/secret');
+        $util->disable(RouterOS\Query::where('name', $model->username));
+    }
+
+    public function mikrotikEnable($model) {
+        $util = new RouterOS\Util(
+            $client = new RouterOS\Client('192.168.1.100', 'admin', 'admin')
+        );
+        $util->setMenu('/ppp/secret');
+        $util->enable(RouterOS\Query::where('name', $model->username));
     }
 }

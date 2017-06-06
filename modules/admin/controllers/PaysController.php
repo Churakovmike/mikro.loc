@@ -2,6 +2,7 @@
 
 namespace app\modules\admin\controllers;
 
+use app\modules\admin\models\User;
 use Yii;
 use app\modules\admin\models\Pays;
 use yii\data\ActiveDataProvider;
@@ -67,6 +68,11 @@ class PaysController extends Controller
         $model = new Pays();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            if ($model->type == 'Зачисление') {
+                $users = User::find()->where(['username' => $model->username])->one();
+                $users->balance += $model->sum;
+                $users->save();
+            }
             $action = new Actionlist();
             $action->user_id = Yii::$app->user->identity->id;
             $action->action = 'Добавление';
