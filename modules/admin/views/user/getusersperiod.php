@@ -1,3 +1,4 @@
+<?php if ($countUsers != 0) : ?>
 <h1>Отчет по новым абонентам</h1>
 <div class="summary">
     Всего найдено <b><?= $countUsers ?></b> абонентов.
@@ -13,6 +14,7 @@
             <th>Тариф</th>
             <th>Стоимость тарифа</th>
             <th>Статус</th>
+            <th>Действия</th>
         </tr>
     </thead>
     <tbody>
@@ -33,11 +35,13 @@
                 echo "<td><span class='label label-success'>активен</span></td>";
             }
             ?>
-
+            <td><a class="btn btn-primary" href="/admin/user/view?id=<?= $user->id ?>">Перейти</a></td>
 
         </tr>
             <?php $i++; ?>
         <?php endforeach; ?>
     </tbody>
-
 </table>
+<?php else : ?>
+<h2>По заданным параметрам не найдено абонентов</h2>
+<?php endif; ?>

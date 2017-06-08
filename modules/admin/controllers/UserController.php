@@ -368,7 +368,7 @@ class UserController extends Controller
 //        $tours = Tours::find()->where(['created_at' => '2017-05-03'])->all();
 //        $tours = Tours::find()->where(['between', 'created_at', $start, $end])->all();
         $users = User::find()->where(['between', 'date_contract', $start, $end])->andWhere(['role' => 'abonent'])->all();
-        $countUsers = User::find()->where(['role' => 'abonent'])->count();
+        $countUsers = User::find()->where(['role' => 'abonent'])->andWhere(['between', 'date_contract', $start, $end])->count();
 //        debug($users);
 //        die();
         $this->layout = false;
