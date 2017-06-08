@@ -89,10 +89,10 @@ use yii\helpers\Html;
                         <input type="hidden" name="paymentType" value="PC">
                         <input type="hidden" name="successURL" value="http://mikro.kotovolt.ru/cabinet">
                         <div class="form-group">
-                        <input type="text" name="label" placeholder="Введите свой логин" required class="form-control" >
+                        <input type="text" name="label" placeholder="Введите свой логин" required class="form-control" disabled value="<?= Yii::$app->user->identity->username ?>">
                         </div>
                         <div class="form-group">
-                        <input type="text" name="sum" placeholder="Сумма" required class="form-control" >
+                        <input type="number" name="sum" placeholder="Сумма" required class="form-control" >
                         </div>
                         <input type="submit" value="Оплатить" class="btn btn-warning">
                     </div>
@@ -125,4 +125,4 @@ use yii\helpers\Html;
     </div>
 </div>
 
-<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/button-widget?account=41001990623999&quickpay=small&yamoney-payment-type=on&button-text=01&button-size=l&button-color=orange&targets=%D0%90%D0%B1%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0&default-sum=300&fio=on&mail=on&phone=on&successURL=http%3A%2F%2Fmikro.kotovolt.ru%2Fcabinet" width="238" height="48"></iframe>
+<!--<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/button-widget?account=41001990623999&quickpay=small&yamoney-payment-type=on&button-text=01&button-size=l&button-color=orange&targets=%D0%90%D0%B1%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D0%BF%D0%BB%D0%B0%D1%82%D0%B0&default-sum=300&fio=on&mail=on&phone=on&successURL=http%3A%2F%2Fmikro.kotovolt.ru%2Fcabinet" width="238" height="48"></iframe>-->

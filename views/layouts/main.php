@@ -66,6 +66,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li><a href="/site/allnews">Новости</a></li>
                         <li><a href="/request/index">Подключиться</a></li>
                         <li><a href="/cabinet">Личный кабинет</a></li>
+                        <?php
+                        if ( !Yii::$app->user->isGuest ) {
+                            $data = \app\modules\admin\models\User::findOne(\Yii::$app->user->id);
+                            if ( $data->role != 'abonent') {
+                                //debug($data->role);
+//                                return Yii::$app->response->redirect(['/site/login']);
+                                echo "<li><a href='/admin'>Панедь администратора</a></li>";
+                            }
+                        }
+                        ?>
                         <?php if(!Yii::$app->user->isGuest) : ?>
                             <li><a href="/site/logout">Выход</a></li>
                         <?php endif; ?>

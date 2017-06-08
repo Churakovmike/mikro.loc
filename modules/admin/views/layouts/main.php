@@ -192,6 +192,10 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                                 "label" => "Добавить",
                                                 "url" => "/admin/user/create",
                                             ],
+                                            [
+                                                "label" => "Отчеты",
+                                                "url" => "/admin/user/otchet",
+                                            ],
                                         ],
                                     ],
                                     [
