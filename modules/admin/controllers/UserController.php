@@ -357,4 +357,21 @@ class UserController extends Controller
 
         return $this->redirect(['/admin']);
     }
+
+    public function actionOtchet() {
+        return $this->render('otchet');
+    }
+
+    public function actionGetUsersPeriod() {
+        $start = Yii::$app->request->get('start');
+        $end = Yii::$app->request->get('end');
+//        $tours = Tours::find()->where(['created_at' => '2017-05-03'])->all();
+//        $tours = Tours::find()->where(['between', 'created_at', $start, $end])->all();
+        $users = User::find()->where(['between', 'date_contract', $start, $end])->andWhere(['role' => 'abonent'])->all();
+        $countUsers = User::find()->where(['role' => 'abonent'])->count();
+//        debug($users);
+//        die();
+        $this->layout = false;
+        return $this->render('getusersperiod', compact('users', 'start', 'end', 'countUsers'));
+    }
 }
