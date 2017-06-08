@@ -505,6 +505,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
 <!--<scripts>-->
 <!--    $().DataTable();-->
 <!--</scripts>-->
+<script src="/js/main.js"></script>
 </body>
 </html>
 <?php $this->endPage(); ?>
