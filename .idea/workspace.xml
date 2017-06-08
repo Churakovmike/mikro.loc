@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f9b1d4-d847-49e6-80c5-86035b016e4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/controllers/AnaliticsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/views/analitics/result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/main.js.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin/views/layouts/main.php" afterPath="$PROJECT_DIR$/modules/admin/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <ignored path="mikro.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/admin/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="429" column="72" selection-start-line="429" selection-start-column="72" selection-end-line="429" selection-end-column="72" />
+            <state relative-caret-position="690">
+              <caret line="446" column="88" selection-start-line="446" selection-start-column="88" selection-end-line="446" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -108,10 +104,10 @@
         <option value="$PROJECT_DIR$/modules/admin/views/user/spisanie.php" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/web/js/main.js.php" />
-        <option value="$PROJECT_DIR$/modules/admin/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/modules/admin/controllers/AnaliticsController.php" />
         <option value="$PROJECT_DIR$/modules/admin/views/analitics/result.php" />
+        <option value="$PROJECT_DIR$/modules/admin/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -401,7 +397,7 @@
       <workItem from="1496663829472" duration="2314000" />
       <workItem from="1496740451383" duration="12295000" />
       <workItem from="1496770312382" duration="5354000" />
-      <workItem from="1496921958577" duration="3931000" />
+      <workItem from="1496921958577" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1496593067195</created>
@@ -421,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245843000" />
+    <option name="totallyTimeSpent" value="246825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -909,8 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/admin/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="429" column="72" selection-start-line="429" selection-start-column="72" selection-end-line="429" selection-end-column="72" />
+        <state relative-caret-position="690">
+          <caret line="446" column="88" selection-start-line="446" selection-start-column="88" selection-end-line="446" selection-end-column="88" />
           <folding />
         </state>
       </provider>
