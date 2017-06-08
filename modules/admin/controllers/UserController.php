@@ -335,4 +335,26 @@ class UserController extends Controller
 //        die();
         return $this->render('spisanie');
     }
+
+    public function actionSend() {
+        $users = User::find()->where(['activity' => '1'])->all();
+
+        foreach ($users as $user) {
+            try {
+
+                $messageContent = '<h1>Уважаемый ' . $user->surname . ' ' . $user->firstname . ' ' . $user->secondname . '</h1><p>Первого числа произойдет списание абонентской платы. Рекомендуем заранее пополнить свой баланс, чтобы всегда оставаться онлайн. Всегда. Вечно.</p>';
+                Yii::$app->mailer->compose()
+                    ->setHtmlBody($messageContent)
+                    ->setFrom(['troinik@inbox.ru' => 'АЙПИ-ГРУПП']) //используемая почта
+                    ->setTo($user->email)
+                    ->setSubject('Напоминание')
+                    ->send();
+                }
+            catch (\Swift_TransportException $e) {
+                continue;
+            }
+        }
+
+        return $this->redirect(['/admin']);
+    }
 }
