@@ -30,6 +30,7 @@ class DefaultController extends Controller
         $requestLists = Request::find()->where(['status' => '1'])->orderBy(['id' => SORT_DESC])->limit(10)->all(); # список последних заявокна подключение
         $payLists = Pays::find()->orderBy(['id' => SORT_DESC])->limit(10)->all(); # последние платежи
         $requestChangeLists = Requesttarif::find()->orderBy(['id' => SORT_DESC])->limit(10)->all();
+
         return $this->render('index', compact('countUsers', 'countDevicesFree', 'countDevices', 'requestCount', 'requestChangeCount', 'userAbonents', 'requestLists', 'payLists', 'requestChangeLists'));
     }
 }

@@ -40,6 +40,7 @@ class ComposerStaticInit11e4a30a5ccb08c70cdd86950fff56a9
         ),
         'm' => 
         array (
+            'miloschuman\\highcharts\\' => 23,
             'mihaildev\\elfinder\\' => 19,
             'mihaildev\\ckeditor\\' => 19,
         ),
@@ -143,6 +144,10 @@ class ComposerStaticInit11e4a30a5ccb08c70cdd86950fff56a9
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'miloschuman\\highcharts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/miloschuman/yii2-highcharts-widget/src',
         ),
         'mihaildev\\elfinder\\' => 
         array (
