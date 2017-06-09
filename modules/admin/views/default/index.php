@@ -11,6 +11,16 @@
 <!--    </p>-->
 <!--</div>-->
 <!-- top tiles -->
+<?php
+use miloschuman\highcharts\Highcharts;
+use  yii\web\JsExpression;
+
+use miloschuman\highcharts\Highstock;
+use miloschuman\highcharts\Highmaps;
+use miloschuman\highcharts\SeriesDataHelper;
+
+\miloschuman\highcharts\HighchartsAsset::register($this)->withScripts(['highstock', 'modules/exporting', 'modules/drilldown']);
+?>
 <div class="row tile_count">
     <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <div class="tile-stats">
@@ -55,6 +65,114 @@
 </div>
 <!-- /top tiles -->
 <!-- main content -->
+<div class="row">
+    <div class="x_panel">
+        <?php
+        $i = 22;
+//        $tarOne = \app\modules\admin\models\User::find()->where(['tariffs_id' => 1])->count();
+//        echo $tarOne;
+        echo Highcharts::widget([
+            'scripts' => [
+                'modules/exporting',
+                'themes/grid-light',
+            ],
+            'options' => [
+                'title' => [
+                    'text' => 'Статистика тарифов',
+                ],
+                'xAxis' => [
+                    'categories' => ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь'],
+                ],
+                'labels' => [
+                    'items' => [
+                        [
+                            'html' => 'Абоненты по тарифам за все время',
+                            'style' => [
+                                'left' => '50px',
+                                'top' => '18px',
+                                'color' => new JsExpression('(Highcharts.theme && Highcharts.theme.textColor) || "black"'),
+                            ],
+                        ],
+                    ],
+                ],
+                'series' => [
+                    [
+                        'type' => 'column',
+                        'name' => 'Jane',
+                        'data' => [3, 2, 1, 3, 4, 1],
+                        'color' => '#34495E',
+                    ],
+                    [
+                        'type' => 'column',
+                        'name' => 'John',
+                        'data' => [2, 3, 5, 7, 6],
+                        'color' => '#1ABB9C',
+                    ],
+                    [
+                        'type' => 'column',
+                        'name' => 'Joe',
+                        'data' => [4, 3, 3, 9, 0],
+                    ],
+                    [
+                        'type' => 'spline',
+                        'name' => 'Average',
+                        'data' => [(int) $t1, (int) $t2, (int) $t3, (int) $t4, (int) $t5, (int) $t6, ],
+                        'marker' => [
+                            'lineWidth' => 2,
+                            'lineColor' => new JsExpression('Highcharts.getOptions().colors[3]'),
+                            'fillColor' => 'white',
+                        ],
+                    ],
+                    [
+                        'type' => 'pie',
+                        'name' => 'Всего абонентов',
+                        'data' => [
+                            [
+                                'name' => '3М',
+                                'y' => (int) $tarOne,
+                                'color' => new JsExpression('Highcharts.getOptions().colors[0]'), // Jane's color
+//                                'color' => 'red',
+                            ],
+                            [
+                                'name' => '4М',
+                                'y' => (int) $tarTwo,
+                                'color' => new JsExpression('Highcharts.getOptions().colors[1]'), // John's color
+                            ],
+                            [
+                                'name' => '5М',
+                                'y' => (int) $tarThree,
+                                'color' => new JsExpression('Highcharts.getOptions().colors[2]'), // Joe's color
+                            ],
+                            [
+                                'name' => '6М',
+                                'y' => (int) $tarFour,
+                                'color' => new JsExpression('Highcharts.getOptions().colors[3]'), // Joe's color
+                            ],
+                            [
+                                'name' => '8М',
+                                'y' => (int) $tarFive,
+                                'color' => new JsExpression('Highcharts.getOptions().colors[4]'), // Joe's color
+                            ],
+                            [
+                                'name' => '10М',
+                                'y' => (int) $tarSix,
+                                'color' => new JsExpression('Highcharts.getOptions().colors[6]'), // Joe's color
+                            ],
+                        ],
+                        'center' => [100, 80],
+                        'size' => 100,
+                        'showInLegend' => false,
+                        'dataLabels' => [
+                            'enabled' => false,
+                        ],
+                    ],
+                ],
+            ]
+        ]);
+        ?>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-md-6">
         <div class="x_panel">
@@ -210,6 +328,8 @@
 </div>
 <!-- /main content -->
 <div class="row">
+    <?php
 
+    ?>
 </div>
 
