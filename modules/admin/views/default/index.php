@@ -98,24 +98,39 @@ use miloschuman\highcharts\SeriesDataHelper;
                 'series' => [
                     [
                         'type' => 'column',
-                        'name' => 'Jane',
-                        'data' => [3, 2, 1, 3, 4, 1],
+                        'name' => '3М',
+                        'data' => [ (int) $t11, (int) $t21, (int) $t31, (int) $t41, (int) $t51, (int) $t61 ],
                         'color' => '#34495E',
                     ],
                     [
                         'type' => 'column',
-                        'name' => 'John',
-                        'data' => [2, 3, 5, 7, 6],
+                        'name' => '4М',
+                        'data' => [(int) $t12, (int) $t22, (int) $t32, (int) $t42, (int) $t52, (int) $t62],
                         'color' => '#1ABB9C',
                     ],
                     [
                         'type' => 'column',
-                        'name' => 'Joe',
-                        'data' => [4, 3, 3, 9, 0],
+                        'name' => '5М',
+                        'data' => [(int) $t13, (int) $t23, (int) $t33, (int) $t43, (int) $t53, (int) $t63],
+                    ],
+                    [
+                        'type' => 'column',
+                        'name' => '6М',
+                        'data' => [(int) $t14, (int) $t24, (int) $t34, (int) $t44, (int) $t54, (int) $t64],
+                    ],
+                    [
+                        'type' => 'column',
+                        'name' => '8М',
+                        'data' => [(int) $t15, (int) $t25, (int) $t35, (int) $t45, (int) $t55, (int) $t65],
+                    ],
+                    [
+                        'type' => 'column',
+                        'name' => '10М',
+                        'data' => [(int) $t16, (int) $t26, (int) $t36, (int) $t46, (int) $t56, (int) $t66],
                     ],
                     [
                         'type' => 'spline',
-                        'name' => 'Average',
+                        'name' => 'Абонентов в месяц',
                         'data' => [(int) $t1, (int) $t2, (int) $t3, (int) $t4, (int) $t5, (int) $t6, ],
                         'marker' => [
                             'lineWidth' => 2,
