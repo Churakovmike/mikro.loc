@@ -1,6 +1,10 @@
 yii2-mikrotik
 ================================
 
+
+проект для теста возможности интеграции микротика с веб приложением
+--------------------------------
+
 Yii 2 Basic Application Template with net_routeros package for mikrotik API web.
 
 
